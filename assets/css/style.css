@@ -1,13 +1,20 @@
-.nav-container {
+.navbar{
+    background-color: azure;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-links{
     list-style-type: none;
     display: flex;
-    background-color: azure;
-    /* justify-content: space-evenly; */
 }
 .nav-item{
-    /* border: 1px solid red; */
     padding: 5px 15px;
 }
-#home{
-    margin-left: auto;
+/* #search{
+    flex: 1;
+} */
+#search-box{
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: azure;
 }
