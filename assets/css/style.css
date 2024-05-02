@@ -1,0 +1,13 @@
+.nav-container {
+    list-style-type: none;
+    display: flex;
+    background-color: azure;
+    /* justify-content: space-evenly; */
+}
+.nav-item{
+    /* border: 1px solid red; */
+    padding: 5px 15px;
+}
+#home{
+    margin-left: auto;
+}
